@@ -27,7 +27,7 @@ try:
         file.write("i'm 19 years\n")
         file.write("907654\n")
         file.write("i'm a student\n")
-    print("\ncontent appendedto my_file.txt successfully.")  
+    print("\ncontent appended to my_file.txt successfully.")  
 except IOError as e:
     print(f"An error occurred while appending to the file:{e}") 
 finally:
