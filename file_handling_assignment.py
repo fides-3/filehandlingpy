@@ -9,7 +9,7 @@ try:
 except IOError as e:
     print(f" An error occurred while creating the file:{e}") 
 finally:
-    print("file creation process completed.")
+    print("file creation process completed .")
 try:
     with open ("my_file.txt","r")  as file:
         file_content=file.read ()  
@@ -29,7 +29,7 @@ try:
         file.write("i'm a student\n")
     print("\ncontent appended to my_file.txt successfully.")  
 except IOError as e:
-    print(f"An error occurred while appending to the file:{e}") 
+    print(f"An error occurred while appending to the file: {e}") 
 finally:
     print("File appending proceess completed.")     
 
